@@ -11,6 +11,8 @@
 		D5A9418F2B9FD37D00F0CB85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A9418E2B9FD37D00F0CB85 /* ContentView.swift */; };
 		D5A941912B9FD37F00F0CB85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A941902B9FD37F00F0CB85 /* Assets.xcassets */; };
 		D5A941942B9FD37F00F0CB85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A941932B9FD37F00F0CB85 /* Preview Assets.xcassets */; };
+		D5A9419B2B9FDD9200F0CB85 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A9419A2B9FDD9200F0CB85 /* TaskModel.swift */; };
+		D5A9419D2B9FDFAA00F0CB85 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A9419C2B9FDFAA00F0CB85 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D5A9418E2B9FD37D00F0CB85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5A941902B9FD37F00F0CB85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5A941932B9FD37F00F0CB85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5A9419A2B9FDD9200F0CB85 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		D5A9419C2B9FDFAA00F0CB85 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D5A9418C2B9FD37D00F0CB85 /* TasksApp.swift */,
 				D5A9418E2B9FD37D00F0CB85 /* ContentView.swift */,
+				D5A9419C2B9FDFAA00F0CB85 /* TaskViewModel.swift */,
+				D5A9419A2B9FDD9200F0CB85 /* TaskModel.swift */,
 				D5A941902B9FD37F00F0CB85 /* Assets.xcassets */,
 				D5A941922B9FD37F00F0CB85 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A9419B2B9FDD9200F0CB85 /* TaskModel.swift in Sources */,
+				D5A9419D2B9FDFAA00F0CB85 /* TaskViewModel.swift in Sources */,
 				D5A9418F2B9FD37D00F0CB85 /* ContentView.swift in Sources */,
 				D5A9418D2B9FD37D00F0CB85 /* TasksApp.swift in Sources */,
 			);
